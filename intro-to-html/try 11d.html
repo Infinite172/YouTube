@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>11d</title>
+</head>
+<style>
+  p {
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
+  }
+
+  .box {
+    box-shadow: 0 0 6px rgb(0, 0, 0, 0.3);
+    width: 200px;
+  }
+
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 12px;
+  }
+
+  .profile-picture:hover {
+    cursor: pointer;
+  }
+
+  .name {
+    font-weight: bold;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+  .name:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .line {
+    margin-left: 8px;
+    margin-bottom: 10px;
+  }
+
+  .circle {
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+    border-radius: 140px;
+    vertical-align: middle;
+    margin-right: 4px;
+  }
+
+  .circle:hover {
+    cursor: pointer;
+  }
+
+  .friend {
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(100, 100, 100);
+  }
+
+  button {
+    color: white;
+    background: rgb(24, 119, 242);
+    border: none;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: rgb(24, 11, 255);
+  }
+</style>
+
+<body>
+  <div class="grid">
+    <div class="box">
+      <img class="profile-picture" src="i.jpg">
+      <p class="name">Oliver</p>
+      <div class="line">
+        <img class="circle" src="google.jpg">
+        <p class="friend">2 mutual friends</p>
+      </div>
+      <div class="add">
+        <button>Add Friend</button>
+      </div>
+    </div>
+
+    <div class="box">
+      <img class="profile-picture" src="son.jpg">
+      <p class="name">Henry</p>
+      <div class="line">
+        <img class="circle" src="google.jpg">
+        <p class="friend">4 mutual friends</p>
+      </div>
+      <div class="add">
+        <button>Add Friend</button>
+      </div>
+    </div>
+
+    <div class="box">
+      <img class="profile-picture" src="goku.jpg">
+      <p class="name">Johnson</p>
+      <div class="line">
+        <img class="circle" src="google.jpg">
+        <p class="friend">6 mutual friends</p>
+      </div>
+      <div class="add">
+        <button>Add Friend</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

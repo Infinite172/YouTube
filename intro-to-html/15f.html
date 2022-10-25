@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>15f</title>
+  <style>
+    body {
+      height: 3000px;
+    }
+
+    div {
+      font-family: arial;
+    }
+
+    .product-container {
+      position: relative;
+      display: inline-block;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    .image {
+      object-fit: cover;
+      height: 300px;
+      width: 300px;
+    }
+
+    .discount {
+      position: absolute;
+      top: 10px;
+      right: 0;
+      background-color: black;
+      color: white;
+      padding-left: 12px;
+      padding-right: 12px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+
+    .bottom-overlay {
+      position: absolute;
+      background: rgba(255, 255, 255, 0.6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 80px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="product-container">
+    <img class="image" src="flower.jpg">
+    <div class="discount">20% OFF</div>
+    <div class="bottom-overlay">
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </div>
+</body>
+
+</html>

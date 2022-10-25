@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>13g</title>
+  <style>
+    div {
+      font-family: Arial;
+    }
+
+    .whole {
+      display: flex;
+      padding: 15px;
+      width: 420px;
+      margin-left: 20px;
+      margin-top: 20px;
+      box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+    }
+
+    .img1-div {
+      margin-right: 10px;
+    }
+
+    .image1 {
+      height: 40px;
+      width: 40px;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+
+    .header {
+      display: flex;
+      margin-bottom: 5px;
+    }
+
+    .name {
+      font-weight: bold;
+      margin-right: 5px;
+    }
+
+    .side-title {
+      color: rgb(120, 120, 120);
+    }
+
+    .tweet-column {
+      flex: 1;
+    }
+
+    .content {
+      line-height: 20px;
+      margin-bottom: 10px;
+    }
+
+    .website {
+      color: rgb(120, 120, 120);
+      margin-bottom: 3px;
+    }
+
+    .video-info {
+      flex: 1
+    }
+
+    .image2 {
+      height: 100px;
+      width: 100px;
+      object-fit: cover;
+    }
+
+    .thumbnail {
+      height: 100px;
+      width: 100px;
+
+      margin-right: 10px;
+    }
+
+    .video-preview {
+      border-style: solid;
+      border-width: 1px;
+      border-color: rgb(200, 200, 200);
+      border-radius: 10px;
+      display: flex;
+      overflow: hidden;
+      align-items: center;
+    }
+
+    .video-title {
+      line-height: 22px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="whole">
+    <div class="img1-div">
+      <img class="image1" src="man.jpg">
+    </div>
+    <div class="tweet-column">
+      <div class="header">
+        <div class="name">supersimple.dev</div>
+        <div class="side-title">@SuperSimpleDev</div>
+      </div>
+      <div class="content">
+        What is backend web development? A complete overview. New video is up!
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail">
+          <img class="image2" src="goku.jpg">
+        </div>
+        <div class="video-info">
+          <div class="website">youtube.com</div>
+          <div class="video-title">Backend web development - a complete overview (2022)</div>
+        </div>
+      </div>
+      <div>
+      </div>
+    </div>
+</body>
+
+</html>

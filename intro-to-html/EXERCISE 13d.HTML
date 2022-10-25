@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>13d</title>
+  <style>
+    p {
+      font-family: arial;
+    }
+
+    .whole {
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      width: 380px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+
+    .inbox {
+      font-size: 14px;
+      color: rgb(120, 120, 120);
+      margin-bottom: 20px;
+    }
+
+    .one-message {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .image-div {
+      margin-right: 10px;
+    }
+
+    .image {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+
+    .title-time {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 3px;
+    }
+
+    .texts {
+      flex: 1;
+    }
+
+    .title {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .time {
+      font-size: 14px;
+      color: rgb(120, 120, 120);
+    }
+
+    .subtitle {
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .message {
+      color: rgb(120, 120, 120);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="whole">
+    <div class="inbox">ALL INBOXS</div>
+
+    <div class="one-message">
+      <div class="image-div">
+        <img class="image" src="sunset.jpg">
+      </div>
+      <div class="texts">
+        <div class="title-time">
+          <div class="title">Chewy Promotions</div>
+          <div class="time">4:58 PM</div>
+        </div>
+        <div class="subtitle">Biggest sale of the year!</div>
+        <div class="message">Hey there! We're writing to tell you about our...</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

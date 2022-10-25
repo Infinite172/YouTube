@@ -1,0 +1,52 @@
+.am{
+  color:rgb(0, 113, 133);
+  cursor: pointer;
+}
+.am:hover{
+  color: black;
+}
+.am:active{
+  color: red;
+}
+
+#act{
+  color: rgb(0, 118, 0);
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.de{
+  color: black;
+  background: rgb(255, 216, 20);
+  width: 100px;
+  height: 25px;
+  border: none;
+  border-radius: 18px;
+  margin-top: 15px;
+  cursor: pointer;
+  margin-right:10px ;
+  transition: background 0.15s;
+}
+.de:hover{
+  background: rgb(255, 251, 0);
+}
+.de:active{
+  opacity: 0.6;
+}
+
+.as{
+  color: black;
+  background: rgb(255, 164, 28);width: 100px;
+  height: 25px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.as:hover{
+  background: rgb(255, 123, 0);
+}
+.as:active{
+  opacity: 0.6;
+}

@@ -1,0 +1,59 @@
+  p {
+      font-family: arial;
+      margin-top: 0;
+    }
+
+    .vt {
+      font-size: 18px;
+      width: 280px;
+      font-weight: bold;
+      line-height: 24px;
+      margin-bottom: 5px;
+    }
+
+    .view {
+      font-size: 14px;
+      color: rgb(96, 96, 96);
+      margin-bottom: 20px;
+    }
+
+    .mb {
+      font-size: 14px;
+      color: rgb(96, 96, 96);
+      margin-bottom: 20px;
+    }
+
+    .ta {
+      font-size: 14px;
+      color: rgb(96, 96, 96);
+      width: 280px;
+      line-height: 22px;
+      margin-bottom: 50px;
+    }
+
+    .rd {
+      text-align: center;
+      color: white;
+      background: rgb(227, 65, 64);
+      font-size: 14px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    .sn {
+      cursor: pointer;
+    }
+
+    .sn:hover {
+      text-decoration: underline;
+    }
+
+    .example {
+      color: rebeccapurple;
+      margin-left: 12px;
+    }
+
+    .example:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }

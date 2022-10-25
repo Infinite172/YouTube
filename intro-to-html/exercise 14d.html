@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>14d</title>
+
+  <style>
+    .right-sidebar {
+      position: fixed;
+      background: green;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      width: 100px;
+    }
+
+    div {
+      font-family: arial;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .box {
+      width: 350px;
+      background: white;
+      color: black;
+      padding: 18px;
+      border-radius: 5px;
+    }
+
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      margin-bottom: 10px;
+    }
+
+    .close {
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="right-sidebar">Right Side Bar</div>
+  <div class="overlay">
+    <div class="box">
+      <div class="title">Modal Title</div>
+      <div class="subtitle">This is a modal</div>
+      <button class="close">Close</button>
+    </div>
+  </div>
+</body>
+
+</html>
