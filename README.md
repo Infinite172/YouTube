@@ -1,4 +1,4 @@
 # youtube
-I created a sample Youtube home screen using HTML, CSS and Javascript.
+I created a sample Youtube home screen using HTML and CSS.
 You can view the webpage by :
 https://infinite172.github.io/youtube/
